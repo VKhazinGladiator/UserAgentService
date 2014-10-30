@@ -1,6 +1,9 @@
 # UserAgentService
 
-Wrapped-up https://www.npmjs.org/package/useragent into restful service using node.js
+Parses user agent from browser request header and returns json object representing browser, os, and device infromation.
+The database of user agent strings is maintained automatically.
+
+Turns a npm lib https://www.npmjs.org/package/useragent into restful service using node.js
 
 # Sample Request
 
